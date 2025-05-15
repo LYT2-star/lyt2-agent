@@ -1,0 +1,30 @@
+# docker-compose.yml
+
+version: "3.9"
+services:
+  backend:
+    build: .
+    container_name: lyt2-backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./static:/app/static
+    depends_on:
+      - redis
+
+  frontend:
+    build: ./apps/web
+    container_name: lyt2-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  redis:
+    image: redis:6.2
+    container_name: lyt2-redis
+    ports:
+      - "6379:6379"
+

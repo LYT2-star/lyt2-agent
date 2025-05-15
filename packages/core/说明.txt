@@ -1,0 +1,9 @@
+以下四个文件即为 packages/core/ 模块的全部核心逻辑：
+
+orchestrator → 智能体调度器
+
+planner → 任务规划器
+
+executor → 执行调度指令
+
+memory → 上下文存储（便于后期做任务推荐、结果追溯）

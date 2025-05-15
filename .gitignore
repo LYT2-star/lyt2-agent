@@ -1,0 +1,29 @@
+```gitignore
+# Python
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+.vite/
+
+# Local env
+.env
+.env.local
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build cache
+*.tar
+*.zip
+*.bak
+*.swp
+```
+
+---

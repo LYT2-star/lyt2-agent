@@ -1,0 +1,6 @@
+总结：packages/agents/ 模块已包含：
+base_agent.py → 抽象基类，定义Agent接口行为
+
+resume_agent.py → 简历处理Agent，调用插件链实现上传➜评分➜导出报告
+
+stock_agent.py → 股票分析Agent，调用插件链实现行情获取➜图表分析➜总结解读
