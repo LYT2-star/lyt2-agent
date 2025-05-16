@@ -55,7 +55,7 @@ LYT2 是一个国产开源 AI Agent 系统，支持插件链、多任务协同�
 
 - 🧠  多Agent智能体系统（任务调度 + 插件执行）
 - 📎  插件市场支持（热插拔，上传即用）
-- 📂  内置任务链：简历筛选、股票分析
+- 📂  内置任务链：股票分析、报表分析
 - 🌐  Web UI 界面（React + TailwindCSS）
 - 🗣️  支持中英文界面切换（i18n）
 - 🚀  一键 Docker Compose 部署
@@ -74,7 +74,7 @@ LYT2/
 │ └── web/ # React 前端页面
 ├── packages/ # 核心功能模块
 │ ├── core/ # 任务调度器 / 执行器 / 规划器
-│ ├── agents/ # 简历/股票 Agent
+│ ├── agents/ #  股票、报表 Agent
 │ ├── tools/ # 插件系统（内置插件）
 │ └── lang/ # 多语言支持
 ├── scripts/ # 启动 / 部署脚本
